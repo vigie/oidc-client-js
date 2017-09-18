@@ -131,6 +131,7 @@ export interface OidcClientSettings {
   loadUserInfo?: boolean;
   staleStateAge?: number;
   clockSkew?: number;
+  validateAccessToken: boolean;
   stateStore?: StateStore;
   ResponseValidatorCtor?: ResponseValidatorCtor;
   MetadataServiceCtor?: MetadataServiceCtor;
